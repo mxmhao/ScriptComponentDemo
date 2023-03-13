@@ -1,0 +1,39 @@
+PODS:
+  - AlipaySDK-iOS (15.8.11)
+  - AlipayService (0.0.1):
+    - AlipaySDK-iOS (~> 15.8.11)
+    - ThirdPartyService
+  - ThirdPartyService (0.0.1)
+  - WechatOpenSDK (1.8.7.1)
+  - WechatService (0.0.1):
+    - ThirdPartyService
+    - WechatOpenSDK (~> 1.8.7.1)
+
+DEPENDENCIES:
+  - AlipayService (from `./AlipayService`)
+  - ThirdPartyService (from `./ThirdPartyService`)
+  - WechatService (from `./WechatService`)
+
+SPEC REPOS:
+  trunk:
+    - AlipaySDK-iOS
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  AlipayService:
+    :path: "./AlipayService"
+  ThirdPartyService:
+    :path: "./ThirdPartyService"
+  WechatService:
+    :path: "./WechatService"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: a07b6eafa847a5b29acb6c150ea16d9792d5d167
+  AlipayService: 8f3ee708e7984db0691be70c819080adf87d6504
+  ThirdPartyService: dce5ae40a9d99eabf62ab7d27fc765ea1f4230f0
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  WechatService: 307863cefdc69302f2aa94221527065db1e2e8dd
+
+PODFILE CHECKSUM: 50b3030c3800ed003b771e1b5ff8e3dda5adaa41
+
+COCOAPODS: 1.11.2
