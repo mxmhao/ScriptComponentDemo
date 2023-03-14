@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-cat /dev/null > ../log.txt
-echo "pwd : "`pwd` >> ../log.txt
+#cat /dev/null > ../log.txt
+#echo "pwd : "`pwd` >> ../log.txt
 
 # 获取有效的pod依赖库
 podsArr=(`grep "^[^#]pod" ../Podfile | sed 's/[[:space:]]//g' | awk -F "'|\"" '{print $2}'`)

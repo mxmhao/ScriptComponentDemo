@@ -134,3 +134,5 @@ Temporary Items
 
 # cordova
 /www/
+
+/Pods/Headers/Public/ThirdPartyProtocol.h
