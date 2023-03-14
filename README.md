@@ -7,3 +7,6 @@
 1. 下载项目
 2. 运行 pod install
 3. 编译，即可查看到 Pods/Headers/Public/ThirdPartyProtocol.h 文件，在项目中 import 时会有提示
+
+pod项目下的门道：
+![img1](images/script-position.png)
